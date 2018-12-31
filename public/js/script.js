@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const colors = {
     0: "#EEEEEE",
     2: "#D6CDC4",
-    4: "#F5E9CF",
+    4: "#f7e3b7",
     8: "#F2B179",
     16: "#F58360",
     32: "#F65E3B",

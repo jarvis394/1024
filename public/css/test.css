@@ -9,12 +9,6 @@ h1 {
   text-align: center;
 }
 
-canvas {
-  padding-left: 50%;
-  margin-top: 16px;
-  margin-left: -200px
-}
-
 .btn {
   text-transform: uppercase;
   font-weight: 700;
@@ -65,6 +59,18 @@ h3 {
   text-decoration: underline
 }
 
+.grid {
+  margin-top: 64px;
+  padding: 8px;
+  border-radius: 4px;
+  background: #bbada0;
+  width: 400px;
+}
+
+.grid-row {
+  display: flex;
+}
+
 .tile {
   position: relative;
   width: 100px;
@@ -75,27 +81,13 @@ h3 {
   font-weight: 900;
   font-size: 2rem;
   color: #fff;
-  margin-left: 5px;
-  margin-bottom: 5px;
   border-radius: 4px;
   transition: 0.1s;
+  margin: 4px;
 }
 
 .tile:after {
   content: "";
   display: block;
   padding-bottom: 100%;
-}
-
-.grid {
-  margin-top: 64px;
-  padding: 8px;
-  padding-top: 13px;
-  border-radius: 4px;
-  background: #bbada0;
-  width: 425px
-}
-
-.grid-row {
-  display: flex;
 }
