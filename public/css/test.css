@@ -64,3 +64,38 @@ h3 {
 .footer a:hover {
   text-decoration: underline
 }
+
+.tile {
+  position: relative;
+  width: 100px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  font-size: 2rem;
+  color: #fff;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  transition: 0.1s;
+}
+
+.tile:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.grid {
+  margin-top: 64px;
+  padding: 8px;
+  padding-top: 13px;
+  border-radius: 4px;
+  background: #bbada0;
+  width: 425px
+}
+
+.grid-row {
+  display: flex;
+}
