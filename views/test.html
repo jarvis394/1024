@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>1024</title>
+  <meta name="description" content="1024 game">
+  <link rel="icon" href="./icons/ico.png" type="image/x-icon">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+  <h1>
+    1024
+  </h1>
+  <p class="subtitle">easier, huh?</p>
+
+  <h3>Score: <span id="score">0</span></h3>
+
+  <div style="margin: 32px; display: flex; justify-content: center">
+    <p style="margin: 0">Size:&nbsp</p>
+    <input id="size" placeholder="Size" type="number" value="4" style="width: 36px" min="3" max="8">
+  </div>
+
+  <button class="btn" id="restart">New game</button>
+
+  <div class="game-container">
+    <div class="grid-container">
+      <div class="grid"></div>  
+    </div>
+  </div>
+  
+
+  <p class="footer">Verison by <a href="https://vk.com/tarnatovski">jarvis</a></p>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="./js/hammer.js"></script>
+  <script src="./js/test.js"></script>
+
+</body>
+
+</html>
