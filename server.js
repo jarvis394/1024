@@ -1,4 +1,5 @@
 const express = require('express');
+const colors = require('colors');
 var app = express();
 
 app.use(express.static('public'));
@@ -16,5 +17,5 @@ app.get('/docs', async (req, res) => {
 });
 
 var listener = app.listen(4000, function() {
-  console.log('Your app is listening on port ' + listener.address().port);
+  console.log(`Your app is listening on port `.green + `${listener.address().port}`.rainbow);
 });

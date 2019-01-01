@@ -3,9 +3,9 @@
       "allowUnknownTags": false
   },
   "source": {
-      "include": "./public/js",
+      "include": "./public/js/",
       "includePattern": ".js$",
-      "excludePattern": "(node_modules/|docs)"
+      "excludePattern": "(node_modules/)"
   },
   "plugins": [
       "plugins/markdown"
@@ -13,7 +13,7 @@
   "opts": {
       "template": "node_modules/docdash",
       "encoding": "utf8",
-      "destination": "docs/",
+      "destination": "./public/docs/",
       "recurse": true,
       "verbose": true
   },
