@@ -5,11 +5,12 @@
   "main": "server.js",
   "scripts": {
     "start": "node ./server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "generate-docs": "node_modules/.bin/jsdoc -c jsdoc.json"
   },
   "author": "jarvis",
   "license": "ISC",
   "dependencies": {
+    "docdash": "^1.0.1",
     "express": "^4.16.4",
     "jsdoc": "^3.5.5"
   }

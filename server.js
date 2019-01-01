@@ -12,7 +12,7 @@ app.get('/test', async (req, res) => {
 });
 
 app.get('/docs', async (req, res) => {
-  res.sendFile(__dirname + '/out/index.html'); 
+  res.sendFile(__dirname + '/docs/index.html'); 
 });
 
 var listener = app.listen(4000, function() {
